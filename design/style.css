@@ -1,0 +1,258 @@
+.navbar ul li{
+    letter-spacing: 2px;
+   
+}
+.navbar ul li:hover{
+    text-decoration: underline;
+    color: rgb(238, 238, 218);
+    padding-top: 2px;
+}
+/* .bgimg{
+    
+} */
+#img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_bThtAU8sxcF3N9gZEaLlqLuN907WA3Bb3A&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* opacity:.8; */
+    position: relative;
+}
+.climg{
+    background-image: url("https://media.istockphoto.com/id/1169192820/photo/close-up-on-man-hand-using-tab-pad-on-laptop-to-working-about-futuristic-of-social-media.webp?b=1&s=170667a&w=0&k=20&c=9d1hXrghswMhYgTMUIJpcKIj_9CZBoLjvcX0bciOtdM=");
+    height: 90vh;
+    background-position: center;
+   background-size: cover;
+}
+#img-container {
+    /* width: 90vw; */
+    height: 90vh;
+    overflow-x: none;
+}
+@media (max-width:570px){
+    
+    #img-container{
+        height: 42vh;
+    }
+}
+
+@media (max-width:570px){
+    #img-section img{
+        height: 30vh;
+    }
+}
+
+#overimg .over{
+    position: relative;
+    top: -22px;
+    left: 18px;
+    transition: all .2s linear;
+}
+#overimg img:hover{
+  transform: scale(1.2)
+  
+}
+#trab{
+    height: 100vh;
+    background-image:url("https://t4.ftcdn.net/jpg/06/81/65/01/240_F_681650127_gxiqvPW06b7zZbZPQcnP9e5t1U9yacdm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+   
+}
+
+/* @media (max-width:570px){
+    #trab {
+        height: 200px;
+    }
+}
+@media (max-width:570px){
+    .transparent{
+        height: 200px;
+    }
+} */
+/*  */
+#explore-section{
+    position: relative;
+    cursor: pointer;
+}
+#explore-sectiion img{
+    border: 2px solid rgb(245, 245, 152) ;
+    border-radius: 85px;
+    box-shadow: 2px 4px 6px rgb(92, 92, 89),8px 4px 4px rgb(160, 160, 123);
+    /* position: relative; */
+}
+.text-white{
+    position: relative;
+}
+.card-img-overlay{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    
+}
+.card-img-overlay:hover{
+    border-radius: 85px;
+    opacity: 1;
+    background-color: rgb(0, 0, 0,0.5);
+    color: rgb(238, 248, 145);
+}
+.fade{
+    animation: fadeIn 4s forwards, slideIn 5.5s forwards  ;
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+    
+} 
+@keyframes slideIn {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+/*  */
+.fadebg{
+    background-color: rgb(230, 231, 181);
+}
+
+
+.construct img{
+    box-shadow: -4px 5px 7px black;
+}
+
+#slideimg{
+    background-image:url("https://media.istockphoto.com/id/1473895968/photo/considering-buying-a-home-investing-in-real-estate-broker-signs-a-sales-agreement-agent-lease.jpg?s=612x612&w=0&k=20&c=10TB-wrIF7ynxSF7O1FicgWdxt9PG6zb1mFfRVYjumM=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+@media (max-width:570px){
+    #slideimg {
+        height: 40vh;
+        width: 100vw;
+    }
+}
+#slide-img{
+    background-image:url("https://images.unsplash.com/photo-1558442086-8ea19a79cd4d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGl2aW5nJTIwcm9vbSUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+}
+.top-over{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    background-color: rgb(0, 0, 0,0.3);
+}
+
+
+.footer{
+    position:sticky;
+     background-position:center ;
+     background-image: url("/images/footer.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+@media (max-width:768px){
+    .map{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.F-section{
+    background-color: rgb(0, 0, 0,0.2);
+    padding: 20px;
+}
+.F-section img{
+    width: 46px;
+    height: 45px;
+}
+.footer p h4{
+    color: rgb(240, 231, 219);
+}
+.slide .accordion-body{
+    background-color: rgb(230, 236, 173);
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.bgnone .form-control{
+/* background: none; */
+background: transparent;
+}
+
+/*  */
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 70%;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(3, 0, 0, 0.4);
+    z-index: 1;
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .carousel-caption{
+        bottom: 200px; 
+    }          
+    .carousel-caption p{
+       width: 100%;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .carousel-caption {
+        bottom: 35px;
+    }
+    .carousel-caption h5{
+        font-size: 18px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+} 
