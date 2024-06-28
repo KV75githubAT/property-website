@@ -90,7 +90,7 @@ p {
 
 @media (max-width:568px) {
     .climg {
-        height: 20vh;
+        height: 30vh;
     }
     .climg .btn {
         background: rgb(51, 51, 51);
