@@ -18,7 +18,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2 fixed-top">
     <div class="container-fluid border border-warning">
-      <a class="navbar-brand mx-2" href="#">
+      <a class="navbar-brand mx-0" href="#">
         <img src="/images/images.jfif" alt="" width="40" height="37" class="img-fluid rounded-circle border border-warning">
       </a>
       <a class="navbar-brand" href="#">Dream<span class="text-warning fst-italic fw-bold fs-4">HOME</span></a>
@@ -44,34 +44,34 @@
             </a>
             <ul class="dropdown-menu border border-warning" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="services.html">Services</a></li>
-              <li><a class="dropdown-item" href="#">Sell</a></li>
-              <li><a class="dropdown-item" href="#">Buy</a></li>
+              <li><a class="dropdown-item " href="sell.html">Sell</a></li>
+              <li><a class="dropdown-item" href="buy.html">Buy</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Rent</a></li>
+              <li><a class="dropdown-item" href="rent.html">Rent</a></li>
             </ul>
           </li>
           <li class="nav-item pe-3">
             <a class="nav-link text-warning" href="projects.html" tabindex="-1" aria-disabled="true">Projects</a>
           </li>
         </ul>
-        <!-- <form class="d-flex text-warning"> -->
-        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-         <a href="contact.html">
-        <button class="btn btn-warning me-2 py-2" type="submit"> Contact us </button></a>
-        <!-- </form> -->
+        <a href="contact.html">
+          <button class="btn btn-warning me-2 py-2" type="submit">Contact us</button>
+        </a>
       </div>
     </div>
   </nav>
+  
 
-  <div class="container-fluid mt-5 d-flex justify-content-center align-items-center" id="slideimg" >
+ <!--  -->
+  <div class="container-fluid mt-5" id="slideimg" >
     <div class="row d-flex mx-auto">
-      <div class="col-12 py-0">
-        <p class="text-warning fs-3 fw-bold fst-italic p-5">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <p class="text-warning  fw-bold fst-italic">
           Know more about us 
         </p>
-        <button class="btn btn-outline-light mx-5 px-5 text-center py-2 " type="submit">Read More</button>
+        <button class="btn btn-outline-light mx-2 mb-4" type="submit">Read More</button>
       </div>
     </div>
   </div>
@@ -79,8 +79,8 @@
   <!--About -->
   <div class="container mt-5 mb-4">
     <div class="row">
-      <span class="text-center"> <img src="/images/logoabout.jfif" alt="" class="img-fluid rounded-circle fade"></span>
-      <p class="text-center p-3 m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, cupiditate?
+      <span class="text-center fade"> <img src="/images/logoabout.jfif" alt="" class="img-fluid rounded-circle"></span>
+      <p class="text-center p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, cupiditate?
       </p>
       <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt-4">
         <h4 class="text-warning">About us</h4>
@@ -92,34 +92,34 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo, tempora tenetur voluptatum ipsa
           necessitatibus incidunt voluptate vitae laboriosam vero magni dolor ad totam, labore, odit consequuntur!
           Excepturi, cupiditate nihil?</p>
+          <a href="About.html" class="text-decoration-none">Read More <i class="fa-solid fa-arrow-right mx-1"></i></a>
       </div>
 
-      <div class="col-6 col-sm-3 col-md-3 col-lg-3 text-center text-light mt-4">
+      <div class="col-12 col-sm-3 col-md-3 col-lg-3 text-center text-light mt-4 ">
         <!-- <div class="card"> -->
-        <div class="card-body  bg-dark">
+        <div class="card-body bg-dark about">
           <img
-            src="/images/about-img.avif"
-            alt="" class="card-img-top">
+            src="/images/about-img.avif" class="img-fluid"
+            alt="" >
         </div>
         <!-- </div> -->
       </div>
-      <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+      <div class="col-12 col-sm-3 col-md-3 col-lg-3 mt-3 about1">
         <div class="card-body">
           <img
-            src="/images/about-img2.avif"
-            alt="" class="img-fluid">
+            src="/images/about-img2.avif" class="img-fluid"
+            alt="">
         </div>
       </div>
     </div>
   </div>
 
   <!-- removed -->
-  <hr>
   <div class="container text-center text-warning">
     <h3>Meet Our Agents</h3>
     <p class="m-3 p-2 text-dark">Thank you for your services</p>
 
-    <div class="row">
+    <div class="rows">
       <div class="col-carousel owl-carousel owl-theme bg-dark pt-1">
         <div class="card">
           <div class="card-body">
@@ -241,7 +241,6 @@
   </div>
   </div>
   </div>
-  <hr>
   <!-- end -->
 
   <!-- services -->
@@ -249,24 +248,24 @@
     <div class="row mt-5 ">
       <h5>Best Features</h5>
       <h2 class="mt-3 fst-italic text-warning">Our Services</h2>
-      <div class="col-6 col-sm-3 mt-2">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3 mt-2">
         <span class="fs-1 text-warning"><i class="bi bi-bricks"></i></span>
         <h4 class=" fw-bold mt-3">ARCHITECTURE</h4>
         <P class="text-secondary p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, soluta!</P>
       </div>
-      <div class="col-6 col-sm-3 mt-2">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3 mt-2">
         <span class="fs-1 text-warning"><i class="fa-solid fa-house"></i></span>
         <h4 class=" fw-bold mt-3"> INTERIOR DESIGN</h4>
         <P class="text-secondary p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate illo
           veritatis itaque ipsum consequuntur expedita vitae eligendi, alias aliquam officiis.</P>
       </div>
-      <div class="col-6 col-sm-3 mt-2">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3 mt-2">
         <span class="fs-1 text-warning"><i class="fa-solid fa-cube"></i></span>
         <h4 class=" fw-bold mt-3">3<span class="text-warning">D</span> MODELING</h4>
         <P class="text-secondary p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolor possimus.
           Cumque temporibus aspernatur, sit placeat asperiores accusantium suscipit earum.</P>
       </div>
-      <div class="col-6 col-sm-3 mt-2">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3 mt-2">
         <span class="fs-1 text-warning"><i class="fa-solid fa-couch"></i></span>
         <h4 class=" fw-bold mt-3">FURNITURE DESIGN</h4>
         <p class="text-secondary p-2">
@@ -275,15 +274,16 @@
       </div>
     </div>
   </div>
-  <hr class="text-dark">
+  
   <!-- accordion -->
   <div class="container mt-5 mb-2">
-    <h1 class="text-center">Elevate Your Living<br> Experience With Dream<span class="text-warning fw-bold">Home </span>
+    <h1 class="text-center">Elevate Your Living<br> Experience With Dream<span class="text-warning fw-bold">Home
+      </span>
     </h1>
     <p class="text-center p-3">Explore the reason why discerning homeowners choose DreamHome to fulfill their dreams
     </p>
-    <div class="row mt-5 ">
-      <div class="col-12 col-sm-12 col-lg-6 mt-5 mb-2 " id="explore-sectiion">
+    <div class="row mt-5 "> 
+      <div class="col-12 col-sm-12 col-lg-6 mb-3 " id="explore-section">
         <div class="text-white">
           <img src="/images/building.jpg" class="card-img" alt="...">
           <div class="card-img-overlay">
@@ -310,7 +310,8 @@
               aria-labelledby="panelsStayOpen-headingOne">
               <div class="accordion-body">
                 <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                plugin adds the appropriate classes that we use to style each element. These classes control the
+                overall
                 appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
                 custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
                 within the <code>.accordion-body</code>, though the transition does limit overflow.
@@ -329,7 +330,8 @@
               aria-labelledby="panelsStayOpen-headingTwo">
               <div class="accordion-body">
                 <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                plugin adds the appropriate classes that we use to style each element. These classes control the
+                overall
                 appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
                 custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
                 within the <code>.accordion-body</code>, though the transition does limit overflow.
@@ -348,7 +350,8 @@
               aria-labelledby="panelsStayOpen-headingThree">
               <div class="accordion-body">
                 <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                plugin adds the appropriate classes that we use to style each element. These classes control the
+                overall
                 appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
                 custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
                 within the <code>.accordion-body</code>, though the transition does limit overflow.
@@ -358,10 +361,11 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
+</div>
 
   <div class="container mt-4 mb-5">
-    <h3 class="text-warning text-center m-5">Our Achievements</h3>
+    <h3 class="text-warning text-center">Our Achievements</h3>
     <div class="row">
       <div class="col-12 col-sm-6 col-md-6 col-lg-6">
         <img src="/images/awards2.jfif" alt="" class="img-fluid p-1">
@@ -377,14 +381,14 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero ab maiores corporis adipisci. Voluptatibus,
           ducimus natus! Magnam expedita ex vitae deleniti sint reprehenderit deserunt distinctio cum? Molestias enim
           repudiandae provident?</p>
-        <a href="#">Read More</a>
+          <a href="sell.html" class="text-decoration-none mx-1">Read More <i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
   </div>
 
   <!--  -->
   <footer>
-    <div class="container-fluid gx-0 footer mt-5">
+    <div class="container-fluid footer mt-5">
       <div class="row text-light pt-5 F-section">
         <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-center mb-5">
           <div class="brand">
